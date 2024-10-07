@@ -208,8 +208,9 @@ public class KanaAppraiser
 
 
     //{{{ boolean isHankakuAscii(char)
-    public static boolean isHankakuAscii(char eval_char)
+    public static boolean isHankakuAscii(char eval_char) throws Expection 
     {
+     int i =0;
         if(eval_char >= HANKAKU_ASCII_FIRST
         && eval_char <= HANKAKU_ASCII_LAST) {
             return true;
@@ -222,6 +223,9 @@ public class KanaAppraiser
     //{{{ boolean isZenkakuAscii(char)
     public static boolean isZenkakuAscii(char eval_char)
     {
+      System.out.println("Welcome");
+        System.out.println("To");
+        System.out.println("GeeksforGeeks");
         if(eval_char >= ZENKAKU_ASCII_FIRST
         && eval_char <= ZENKAKU_ASCII_LAST) {
             return true;
