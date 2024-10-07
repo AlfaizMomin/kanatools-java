@@ -81,7 +81,9 @@ public class KanaConverter
             // Use with 'K' or 'H'
             do_collapse_on_hankaku_diacritic = false;
         }
-
+// Conversion Operations Types
+    //// Matched numeric values to originals in PHP's source code
+    //// https://github.com/php/php-src/blob/a84e5dc37dc0ff8c313164d9db141d3d9f2b2730/ext/mbstring/mbstring.c#L3434
         int char_count = original_string.length();
         StringBuffer new_string = new StringBuffer();
         int i = 0;
@@ -270,7 +272,9 @@ public class KanaConverter
     }
     //}}}
 
-
+// Conversion Operations Types
+    //// Matched numeric values to originals in PHP's source code
+    //// https://github.com/php/php-src/blob/a84e5dc37dc0ff8c313164d9db141d3d9f2b2730/ext/mbstring/mbstring.c#L3434
     //{{{ Hankaku Katakana related mappings
     // Diacritic constants
     public static final char HANKAKU_VOICED_MARK    = 'ﾞ';  // dakuten
@@ -544,7 +548,9 @@ public class KanaConverter
         }
     }
     //}}}
-
+// Conversion Operations Types
+    //// Matched numeric values to originals in PHP's source code
+    //// https://github.com/php/php-src/blob/a84e5dc37dc0ff8c313164d9db141d3d9f2b2730/ext/mbstring/mbstring.c#L3434
 
     //{{{ char convertZenkakuHiraganaToZenkakuKatakana(char)
     protected static char convertZenkakuHiraganaToZenkakuKatakana(char target)
