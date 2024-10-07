@@ -30,6 +30,7 @@ public class KanaConverter
     public static final int OP_ZEN_HIRA_TO_HAN_KATA        = 0x00002000;
     public static final int OP_ZEN_HIRA_TO_ZEN_KATA        = 0x00010000;
     public static final int OP_ZEN_KATA_TO_ZEN_HIRA        = 0x00020000;
+    public static final int OP_ZEN_KATA_TO_ZEN_HIRA        = 0x00020000;
 
     //// Maintain backwards compatibility (based on mb_convert_kana's "$option" parameter from PHP)
     //// Details: http://php.net/manual/en/function.mb-convert-kana.php
