@@ -27,6 +27,7 @@ public class MultiOpsTest extends KanaConverterTester
         // Multiple ops (PHP mb_convert_kana style)
         String multi_ops = "Ka";
         this.assertConverted(multi_ops, "Ａ", "A");
+         this.assertConverted(multi_ops, "Ａ", "A");
     }
     //}}}
 
